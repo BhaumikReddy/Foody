@@ -1,0 +1,9 @@
+Food: Apple
+Category: Fruit
+Time of Day: Breakfast
+Weight: 200 grams
+
+Calories: 104.0 (per 200 grams)
+Protein: 0.6 (per 200 grams)
+Carbohydrates: 28.0 (per 200 grams)
+Fat: 0.4 (per 200 grams)

@@ -1,0 +1,8 @@
+Food Name: Banana
+Category: Fruit
+Time of Day: Breakfast
+Weight (grams): 200
+Calories: 178.0 (per 200 grams)
+Protein: 2.2 (per 200 grams)
+Carbohydrates: 46.0 (per 200 grams)
+Fat: 0.6 (per 200 grams)
