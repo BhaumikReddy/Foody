@@ -5,8 +5,8 @@ import numpy as np
 from PIL import Image
 import io
 import tensorflow as tf
-from tensorflow.keras.models import load_model
-from tensorflow.keras.layers import DepthwiseConv2D
+from keras.models import load_model
+from keras.layers import DepthwiseConv2D
 
 class CustomDepthwiseConv2D(DepthwiseConv2D):
     def __init__(self, **kwargs):
