@@ -19,7 +19,8 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "https://foody-1c1avxtoa-bhaumikreddys-projects.vercel.app/"
+        "https://foody-ivory.vercel.app",
+        "https://foody-1c1avxtoa-bhaumikreddys-projects.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
