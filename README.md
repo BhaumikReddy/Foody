@@ -1,4 +1,4 @@
-# Foody — Full-Stack Nutrition Tracker
+# Foody — Nutrition Tracker
 
 A modern web application to analyze food images, classify fruits and vegetables
 using machine learning, fetch nutritional data from the USDA FoodData Central API,
