@@ -1,5 +1,6 @@
 import sys
 import io
+from fastapi.middleware.cors import CORSMiddleware
 
 if sys.platform == "win32":
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
@@ -14,14 +15,17 @@ from routers import predict, logs
 Base.metadata.create_all(bind=engine)
 
 app = FastAPI(title="Foody API", version="1.0.0")
-
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=[
+        "http://localhost:5173",
+        "https://foody-1c1avxtoa-bhaumikreddys-projects.vercel.app/"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
 
 app.include_router(predict.router, prefix="/api")
 app.include_router(logs.router, prefix="/api")
