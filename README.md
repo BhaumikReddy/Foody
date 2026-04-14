@@ -4,6 +4,10 @@ A modern web application to analyze food images, classify fruits and vegetables
 using machine learning, fetch nutritional data from the USDA FoodData Central API,
 and visualize consumption logs.
 
+
+
+[🌐 Live ](https://foody-ivory.vercel.app/)
+
 This repository features:
 - **Backend:** FastAPI (Python), SQLAlchemy, SQLite, and Keras/TensorFlow.
 - **Frontend:** React, Vite, TailwindCSS, and Recharts.
