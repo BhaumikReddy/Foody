@@ -3,7 +3,7 @@ uvicorn[standard]
 python-dotenv
 sqlalchemy
 pillow
-numpy
-tensorflow-cpu
+numpy<2.0.0
+tensorflow-cpu==2.15.0
 requests
 python-multipart
